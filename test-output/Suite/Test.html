@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 17 19:24:48 CDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>11 seconds (11353 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.clickOnFlightsLink()'><b>clickOnFlightsLink</b><br>Test class: org.ecommerce.com.driverClass</td>
+<td></td>
+<td>0</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.login()'><b>login</b><br>Test class: org.ecommerce.com.driverClass</td>
+<td></td>
+<td>0</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.oneWayTrip()'><b>oneWayTrip</b><br>Test class: org.ecommerce.com.driverClass<br>Parameters: 1, London, 7, 17, New York, 7, 18, Pangea Airlines</td>
+<td></td>
+<td>1</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.oneWayTrip()'><b>oneWayTrip</b><br>Test class: org.ecommerce.com.driverClass<br>Parameters: 2, New York, 8, 18, London, 8, 18, Unified Airlines</td>
+<td></td>
+<td>1</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.oneWayTrip()'><b>oneWayTrip</b><br>Test class: org.ecommerce.com.driverClass<br>Parameters: 3, Frankfurt, 9, 19, Paris, 9, 19, Pangea Airlines</td>
+<td></td>
+<td>1</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.oneWayTrip()'><b>oneWayTrip</b><br>Test class: org.ecommerce.com.driverClass<br>Parameters: 4, Paris, 10, 20, New York, 10, 20, No Preference</td>
+<td></td>
+<td>1</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.oneWayTrip()'><b>oneWayTrip</b><br>Test class: org.ecommerce.com.driverClass<br>Parameters: 3, Acapulco, 11, 21, Portland, 11, 21, Pangea Airlines</td>
+<td></td>
+<td>1</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.oneWayTrip()'><b>oneWayTrip</b><br>Test class: org.ecommerce.com.driverClass<br>Parameters: 2, Sydney, 12, 22, San Francisco, 12, 23, Pangea Airlines</td>
+<td></td>
+<td>1</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.oneWayTrip()'><b>oneWayTrip</b><br>Test class: org.ecommerce.com.driverClass<br>Parameters: 4, Zurich, 12, 22, San Francisco, 12, 23, Pangea Airlines</td>
+<td></td>
+<td>1</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+<tr>
+<td title='org.ecommerce.com.driverClass.verifyWebTitle()'><b>verifyWebTitle</b><br>Test class: org.ecommerce.com.driverClass</td>
+<td></td>
+<td>0</td>
+<td>org.ecommerce.com.driverClass@3e27ba32</td></tr>
+</table><p>
+</body>
+</html>
